@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main: prints the size of some primitive variables using sizeof oprator */
+/**
+* main -  prints the size of some primitive variables using sizeof operator 
+* Return: 1 if the program fails. 0 if the program success
+*/
 
 int main(void)
 {
