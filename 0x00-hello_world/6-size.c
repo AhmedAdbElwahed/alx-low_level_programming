@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/* 
-prints the size of some primitive variables using sizeof oprator 
-*/
+/* main: prints the size of some primitive variables using sizeof oprator */
 
 int main(void)
 {

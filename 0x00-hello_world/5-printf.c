@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* prints a string using printf function */
+/* main: prints a string using printf function */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
