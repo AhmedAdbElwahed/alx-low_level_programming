@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char buf[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char buf[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 write(1, buf, sizeof(buf));
 return (1);
 }
