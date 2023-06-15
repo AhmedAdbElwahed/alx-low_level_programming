@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/* 
+prints the size of some primitive variables using sizeof oprator 
+*/
+
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
