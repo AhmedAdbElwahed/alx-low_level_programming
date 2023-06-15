@@ -1,6 +1,7 @@
 #include <stdio.h>
-/* 
-* main - prints a string using printf function 
+
+/**
+* main - prints a string using printf function
 * Return: 1 if the program fails. 0 if the program success
 */
 int main(void)
