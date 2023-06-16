@@ -29,6 +29,6 @@ ch2 += count;
 count++;
 ch1++;
 }
-puchar('\n');
+putchar('\n');
 return (0);
 }
