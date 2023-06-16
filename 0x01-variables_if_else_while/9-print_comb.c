@@ -12,7 +12,7 @@ while (ch < 58)
 {
 putchar(ch);
 if (ch != 57)
-putchar(',');
+putchar(', ');
 ch++;
 }
 return (0);
