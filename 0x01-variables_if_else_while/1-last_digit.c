@@ -14,7 +14,6 @@ int lastDigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%d\n", n);
 
 lastDigit = n % 10;
 
