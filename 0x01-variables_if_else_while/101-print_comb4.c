@@ -16,7 +16,10 @@ putchar(h + 48);
 putchar(t + 48);
 putchar(u + 48);
 if (h != 7 || t != 8 || u != 9)
+{
 putchar(',');
+putchar(' ');
+}
 if (u != 9)
 ++u;
 else
