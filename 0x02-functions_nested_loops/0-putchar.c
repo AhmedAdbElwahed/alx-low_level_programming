@@ -6,8 +6,8 @@
 int main(void)
 {
 	char name[] = "_putchar";
-
-	for (int i = 0; i < sizeof(name); i++)
+	int i;
+	for (i = 0; i < sizeof(name); i++)
 	{
 		_putchar(name[i]);
 	}
