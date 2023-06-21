@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * times_table - prints the 9 times table, starting with 0.
+ * print_times_table -  prints the n times table, starting with 0.
  * @n: the limit of the tabel.
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
