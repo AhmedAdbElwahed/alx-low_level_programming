@@ -11,3 +11,18 @@ for (i = 0; i < 10; i++)
 print_alphabet();
 }
 }
+
+/**
+ * print_alphabet - prints the alphabet
+ */
+void print_alphabet(void)
+{
+	char ch = 'a';
+
+	while (ch != ('z' + 1))
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
+}
