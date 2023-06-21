@@ -9,10 +9,10 @@ void print_times_table(int n)
 	int j;
 	int result;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i <= n; ++i)
 	{
 		_putchar('0');
-		for (j = 1; j <= n; j++)
+		for (j = 1; j <= n; ++j)
 		{
 			result = i * j;
 			_putchar(',');
