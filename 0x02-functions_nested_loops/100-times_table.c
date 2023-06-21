@@ -9,17 +9,17 @@ void print_times_table(int n)
 	int j;
 	int result;
 
-	for (i = 0; i < n + 1; i++)
+	for (i = 0; i <= n; i++)
 	{
 		_putchar('0');
-		for (j = 1; j < n + 1; j++)
+		for (j = 1; j <=; j++)
 		{
 			result = i * j;
 			_putchar(',');
 			_putchar(' ');
-			if (result < 10)
+			if (result <= 9)
 				_putchar(' ');
-			else if (result < 100)
+			else if (result <= 99)
 				_putchar(' ');
 			if (result >= 100)
 			{
