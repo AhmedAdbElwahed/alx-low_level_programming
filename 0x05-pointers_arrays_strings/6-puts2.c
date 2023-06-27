@@ -9,36 +9,14 @@ int my_strlen3(char *s);
 void puts2(char *str)
 {
 	int i;
-	int len = my_strlen3(str);
 
 	if (str[0] != '\0')
 	{
-		for (i = 0; i < len - 1; i++)
+		for (i = 0; str[i] != '\0'; i++)
 		{
 			if (str[i] % 2 == 0)
 				_putchar(str[i]);
 		}
 	}
 	_putchar('\n');
-}
-
-/**
- * my_strlen3 - a function that returns the length of a string.
- * @s: a var that points at a string.
- * Return: 0 if str is empty. positive int (length of the str).
- */
-int my_strlen3(char *s)
-{
-	int len;
-
-	if (*s == '\0')
-		return (0);
-	len = 0;
-	while (1)
-	{
-		if (*s++ == '\0')
-			break;
-		len++;
-	}
-	return (len);
 }
