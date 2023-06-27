@@ -31,13 +31,13 @@ int my_strlen1(char *s)
 
 	if (*s == '\0')
 		return (0);
-	len = 1;
+	len = 0;
 	while (1)
 	{
-		*s++;
-		if (*s == '\0')
+		if (*s++ == '\0')
 			break;
 		len++;
 	}
 	return (len);
 }
+
