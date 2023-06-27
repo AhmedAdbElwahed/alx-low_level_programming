@@ -13,9 +13,8 @@ void puts2(char *str)
 	{
 		if (index % 2 == 0)
 			_putchar(*str);
-		if (*str == '\0')
+		if (*str++ == '\0')
 			break;
-		*str++;
 		index++;
 	}
 	_putchar('\n');
