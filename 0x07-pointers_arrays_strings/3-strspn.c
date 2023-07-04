@@ -1,3 +1,4 @@
+#include <string>
 #include "main.h"
 
 /**
@@ -16,7 +17,7 @@ if ((s == NULL) || (accept == NULL))
 return (len);
 }
 
-while (*s && _strchr(accept, *s++))
+while (*s && strchr(accept, *s++))
 {
 len++;
 }
