@@ -10,7 +10,7 @@ char *_strpbrk(char *s, char *accept)
 {
 int i;
 int j;
-int index = 1000;
+int index = 1000000;
 
 if ((s == NULL) || (accept == NULL))
 {
