@@ -9,5 +9,6 @@
 > ### how to create a static lib:
 >> - The basic tool used to create static libraries is a program called 'ar', for 'archiver'.
 >> - In order to create a static library, we can use a command like this:
+
     ar rc libutil.a util_file.o util_net.o util_math.o
 
