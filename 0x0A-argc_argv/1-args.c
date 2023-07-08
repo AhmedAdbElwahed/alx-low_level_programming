@@ -5,7 +5,7 @@
  * @argv: a one dimensional array of arguments.
  * Return: 0 if success. 1 otherwise.
  */
-int main(int argc)
+int main(int argc, char **argv __attribute__((unused)))
 {
 printf("%d\n", argc);
 return (0);
