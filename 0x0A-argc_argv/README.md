@@ -2,8 +2,10 @@
 > arguments to main provide a useful opportunity to give parameters to programs.
 > Typically, this facility is used to direct the way the program goes about its task.
 > The declaration of main looks like this:
+> 
     int main(int argc, char *argv[]);
 or
+
     int main(int argc, char **argv);
 > argc: means the arguments count.
 > argv: means the arguments vector, it is one dimensional array consists of strings.
