@@ -20,6 +20,10 @@ return (NULL);
 
 p = malloc(sizeof(str));
 
+if (p == NULL)
+{
+return (NULL);
+}
 for  (i = 0; str[i] != '\0'; i++)
 {
 p[i] = str[i];
