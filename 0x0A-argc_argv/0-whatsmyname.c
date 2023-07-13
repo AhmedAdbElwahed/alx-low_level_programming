@@ -5,8 +5,8 @@
  * @argv: a one dimensional array of arguments.
  * Return: 0 if success. 1 otherwise.
  */
-int main(int argc, char **argv)
+int main(int argc __attribute__((unused)), char **argv)
 {
-printf("%s", argv[0]);
+printf("%s\n", argv[0]);
 return (0);
 }
