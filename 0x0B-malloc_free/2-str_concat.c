@@ -39,13 +39,13 @@ s2 = '\0';
 
 len1 = _strlen(s1);
 len2 = _strlen(s2);
-p = malloc((len1 + len2) * sizeof(char) + 1);
+p = malloc((len1 + len2) *sizeof(char) + 1);
 if (p == NULL)
 {
 return (NULL);
 }
 
-for (i = 0; i < len1 + len2; i++)
+for (i = 0; i <= len1 + len2; i++)
 {
 if (i < len1)
 {
