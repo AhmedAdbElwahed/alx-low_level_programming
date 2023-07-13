@@ -40,6 +40,10 @@ s2 = '\0';
 len1 = _strlen(s1);
 len2 = _strlen(s2);
 p = malloc((len1 + len2) * sizeof(char) + 1);
+if (p == NULL)
+{
+return (NULL);
+}
 
 for (i = 0; i < len1 + len2; i++)
 {
@@ -49,7 +53,7 @@ p[i] = s1[i];
 }
 else
 {
-p[i] = s2[i];
+p[i] = s2[i - len1];
 }
 }
 p[i] = '\0';
