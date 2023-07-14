@@ -26,7 +26,7 @@ unsigned int len1;
 unsigned int len2;
 char *s = "\0";
 char *p;
-unsigned int i;
+unsigned int i, j;
 
 if (s1 == NULL)
 {
