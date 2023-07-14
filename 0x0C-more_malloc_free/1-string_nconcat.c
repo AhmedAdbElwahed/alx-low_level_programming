@@ -24,16 +24,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int len1;
 unsigned int len2;
+char *s = "\0";
 char *p;
 unsigned int i;
 
 if (s1 == NULL)
 {
-*s1 = '\0';
+s1 = s;
 }
 if (s2 == NULL)
 {
-*s2 = '\0';
+s2 = s;
 }
 len1 = _strlen(s1);
 len2 = _strlen(s2);
