@@ -51,14 +51,12 @@ return (NULL);
 
 for (i = 0; i <= len1 + n; i++)
 {
-if (i < len1)
-{
 p[i] = s1[i];
 }
-else
-{
-p[i] = s2[i - len1];
-}
+for (j = 0; j <= n; j++)
+{      
+p[i] = s1[i];
+i++;
 }
 p[i] = '\0';
 return (p);
