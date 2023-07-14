@@ -24,7 +24,7 @@ return (NULL);
 
 for (i = 0; i <= ((max - min) + 1); i++)
 {
-p[i] = i + min;
+p[i] =min++;
 }
 return (p);
 }
