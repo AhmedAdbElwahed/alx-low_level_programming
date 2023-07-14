@@ -5,7 +5,7 @@
  * @str: a string.
  * Return: the string of a given string.
  */
-int _strlen(const char *str)
+unsigned int _strlen(const char *str)
 {
 int i;
 
@@ -22,10 +22,10 @@ return (i);
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int len1;
-int len2;
+unsigned int len1;
+unsigned int len2;
 char *p;
-int i;
+unsigned int i;
 
 if (s1 == NULL)
 {
