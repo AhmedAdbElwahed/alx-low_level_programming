@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_list - a function that prints all the elements of a list_t list.
+ * print_listint - a function that prints all the elements of a list_t list.
  * @h: the list to be traversed.
  * Return: the size of the linked list.
  */

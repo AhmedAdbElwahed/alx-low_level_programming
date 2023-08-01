@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * add_node -  function that adds a new node at
+ * add_nodeint -  function that adds a new node at
  * the beginning of a list_t list.
  * @head: a pointer points at a pointer
  * that points to first element in the list.
@@ -22,7 +22,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	newList->n = n;
 
-	newList->next = (struct list_s *) *head;
+	newList->next = *head;
 	*head = newList;
 
 

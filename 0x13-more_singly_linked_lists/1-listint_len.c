@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - get the length of linked list.
+ * listint_len - get the length of linked list.
  * @h: a pointer that points to first element in the list.
  * Return: the length of the list.
  */
